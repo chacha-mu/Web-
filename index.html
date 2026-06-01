@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ねこカフェへようこそ</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>ねこぎゃらりーへようこそ</h1>
+  </header>
+
+  <nav>
+    <a href="#about">猫について</a>
+    <a href="#cats">人気の猫</a>
+    <a href="#gallery">ギャラリー</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="title">猫の魅力</h2>
+
+    <div class="about">
+      <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1200&auto=format&fit=crop" alt="猫">
+
+      <div class="about-text">
+        <p>
+          猫は世界中で愛されている動物です。ふわふわした毛並みやかわいい仕草、
+          マイペースな性格が人気の理由です。
+        </p>
+
+        <br>
+
+        <p>
+          このサイトでは、人気の猫の種類やかわいい猫の写真を紹介しています。
+          猫好きな人はぜひ楽しんでください！
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cats">
+    <h2 class="title">人気の猫たち</h2>
+
+    <div class="cat-list">
+
+      <div class="cat-card">
+        <img src="images/スコ.jpeg" alt="">
+        <h3>スコティッシュフォールド</h3>
+        <p>折れた耳が特徴の人気猫。おっとりしていて人懐っこいです。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/マンチカン.jpeg" alt="">
+        <h3>マンチカン</h3>
+        <p>短い足がかわいい猫。遊ぶことが大好きです。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/ラグドール.jpeg" alt="">
+        <h3>ラグドール</h3>
+        <p>ふわふわの毛と青い目が魅力の癒し系猫です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/アメショ.jpeg" alt="">
+        <h3>アメリカンショートヘア</h3>
+        <p>元気いっぱいで活発。模様がとても美しい猫です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/ロシアンブルー.jpeg" alt="">
+        <h3>ロシアンブルー</h3>
+        <p>美しいグレーの毛並みが特徴。落ち着いた性格です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/ノルウェー.jpeg" alt="">
+        <h3>ノルウェージャンフォレストキャット</h3>
+        <p>大型でふわふわ。寒さに強い北欧生まれの猫です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/ベンガル.jpeg" alt="">
+        <h3>ベンガル</h3>
+        <p>ヒョウ柄のような模様が特徴。運動神経が抜群です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/ペルシャ.jpeg" alt="">
+        <h3>ペルシャ</h3>
+        <p>長い毛と優雅な見た目が人気の高級感ある猫です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/シャム.jpeg" alt="">
+        <h3>シャム</h3>
+        <p>青い目が特徴。人と遊ぶことが大好きな猫です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src=images/メイン.jpeg alt="">
+        <h3>メインクーン</h3>
+        <p>大型でふわふわ。とても優しい性格をしています。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="images/エキゾ.jpeg" alt="">
+        <h3>エキゾチックショートヘア</h3>
+        <p>ぺちゃんこ顔がかわいい癒し系の猫です。</p>
+      </div>
+
+      <div class="cat-card">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <h3>サイベリアン</h3>
+        <p>寒さに強く、モフモフした毛並みが特徴です。</p>
+      </div>
+      <div class="cat-card">
+        <img src="https://media.istockphoto.com/id/1814509691/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E7%8C%AB.jpg?s=612x612&w=0&k=20&c=BOhTKtAVGEY3OCjsE-UPKKjVSvWTBb2O9ON69zLv240=" alt="">
+        <h3>日本猫</h3>
+        <p>頑丈で筋肉質な体型で短い毛、丸顔が特徴の猫です。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+  <h2 class="title">猫ギャラリー</h2>
+
+  <div class="slider">
+
+    <button class="prev" onclick="prevSlide()">❮</button>
+
+    <div class="slides" id="slides">
+
+      <img src="data:image/jpeg;base64,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" alt="">
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQll4U0nUpsCRZnuYfYv4NRAXtxmwM9mk4Zow&s" alt="">
+
+      <img src="https://media.istockphoto.com/id/1226324229/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E7%8C%AB%E3%81%A8%E3%82%AB%E3%83%8D.jpg?s=612x612&w=0&k=20&c=DBwDfeWz9EI5hZ14Hime656rDLmxeubhpbxqRuCaGqQ=" alt="">
+
+      <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1200&auto=format&fit=crop" alt="">
+
+    </div>
+
+    <button class="next" onclick="nextSlide()">❯</button>
+
+  </div>
+</section>
+  <div class="button-area">
+
+  <a href="https://chacha-mu.github.io/-NEKO-/">
+
+    <button>
+      おすすめ猫診断はこちら！
+    </button>
+
+  </a>
+
+</div>
+  <div class="button-area">
+
+  <a href=" https://chacha-mu.github.io/NekoGacha/">
+
+    <button>
+      猫紹介ルーレットはこちら！
+    </button>
+
+  </a>
+
+</div>
+
+
+  
+
+
+<div class="button-area">
+  <a href="https://chacha-mu.github.io/Nekogame-/" class="link-button">
+    猫ゲームへ
+  </a>
+</div>
+ 
+</body>
+</html>
+<section id="knowledge">
+  <h2 class="title">猫の豆知識</h2>
+
+  <div class="knowledge-box">
+
+    <div class="knowledge-card">
+      <h3>🐾 猫はよく寝る？</h3>
+      <p>
+        猫は1日の半分以上を寝て過ごします。
+        子猫だと16時間以上寝ることもあります。
+      </p>
+    </div>
+
+    <div class="knowledge-card">
+      <h3>🐾 ゴロゴロ音の秘密</h3>
+      <p>
+        猫のゴロゴロ音にはリラックス効果があると言われています。
+      </p>
+    </div>
+
+    <div class="knowledge-card">
+      <h3>🐾 高い場所が好き</h3>
+      <p>
+        猫は高い場所から周りを見るのが好きな動物です。
+      </p>
+    </div>
+
+  </div>
+</section>
+<section id="ranking">
+  <h2 class="title">人気ランキング</h2>
+
+  <ol class="ranking-list">
+    <li>🥇 スコティッシュフォールド</li>
+    <li>🥈 マンチカン</li>
+    <li>🥉 ラグドール</li>
+    <li>4位 メインクーン</li>
+    <li>5位 ベンガル</li>
+  </ol>
+</section>
+<section id="contact">
+  <h2 class="title">お問い合わせ</h2>
+
+  <div class="contact-box">
+    <input type="text" placeholder="名前">
+    <input type="email" placeholder="メールアドレス">
+    <textarea placeholder="メッセージ"></textarea>
+
+    <button>送信する</button>
+    <script src="script.js"></script>
+  </div>
+</section>
